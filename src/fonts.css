@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+
+.font-display {
+  font-family: "Luckiest Guy", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Add bounce animation for the logo text */
+.logo-text {
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.logo-text:hover {
+  transform: scale(1.05);
+  text-shadow: 4px 4px 0px rgba(0, 0, 0, 0.1);
+}
+
+/* Fun color gradient effect */
+.logo-gradient {
+  background: linear-gradient(45deg, #2563EB, #60A5FA);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
